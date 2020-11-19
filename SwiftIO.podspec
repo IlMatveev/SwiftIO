@@ -14,6 +14,6 @@ Pod::Spec.new do |spec|
 
   spec.source_files = "Sources/**/*.{h,m}", "Sources/**/*.swift"
 
-  spec.dependency 'SwiftUtilities', :git => "https://github.com/IlMatveev/SwiftUtilities", :branch => "swift5"
+  spec.dependency 'SwiftUtilities'
 
 end
